@@ -1,0 +1,19 @@
+<header>
+  <h1>Comments</h1>
+  <nav>
+    <button class="backButton" (click)="back()">Back</button>
+  </nav>
+</header>
+
+<main>
+  <h2 *ngIf="noComments">No Comments</h2>
+  <ul>
+    <li *ngFor="let comment of comments">
+      <div>
+        <h3>User: {{comment.user}}</h3>
+        <h3>{{comment.time_ago}}</h3>
+      </div>
+      <p [innerHTML]="comment.content"></p>
+    </li>
+  </ul>
+</main>

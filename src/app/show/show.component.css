@@ -1,0 +1,58 @@
+h1 {
+  font-size: 1.3em;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: 400;
+  margin: 0 16px;
+  color: white;
+}
+
+header {
+  background: #3F51B5;
+  height: 64px;
+  line-height: 64px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  margin-right: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+li {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: gainsboro;
+  padding: 1em;
+}
+
+main {
+  padding-top: 4.3rem;
+}
+
+.moreStoriesButton {
+  width: 100%;
+  background: #3F51B5;
+  color: white;
+  border: none;
+  font-size: 2em;
+}

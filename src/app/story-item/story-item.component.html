@@ -1,0 +1,9 @@
+<div (click)="open()">
+  <h4>{{title}}</h4>
+  <span class="user">User: {{user}}</span>
+</div>
+<div>
+  <span>Posted: {{timeAgo}}</span>
+  <span class="secondSpan">{{domain}}</span>
+  <a routerLink="/comments/{{id}}" class="secondSpan">Comments</a>
+</div>

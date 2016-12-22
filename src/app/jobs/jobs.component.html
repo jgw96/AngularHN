@@ -1,0 +1,14 @@
+<header>
+  <h1>Jobs</h1>
+  <nav>
+    <a routerLink="/">Back</a>
+  </nav>
+</header>
+
+<main>
+  <ul>
+    <li *ngFor="let story of stories">
+      <app-story-item [item]="story"></app-story-item>
+    </li>
+  </ul>
+</main>

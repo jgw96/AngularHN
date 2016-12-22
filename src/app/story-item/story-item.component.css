@@ -1,0 +1,27 @@
+h4 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  font-weight: inherit
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondSpan {
+  margin-left: 10px;
+}
+
+span {
+  color: #a0a0a0;
+  font-size: small;
+}
+
+.user {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 5px;
+}

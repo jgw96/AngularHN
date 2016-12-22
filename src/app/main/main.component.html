@@ -1,0 +1,17 @@
+<header>
+  <h1>AngularHN</h1>
+  <nav>
+    <a routerLink="/jobs">Jobs</a>
+    <a routerLink="/show">Show</a>
+  </nav>
+</header>
+
+<main>
+  <h2 class="loading" *ngIf="loading">Loading...</h2>
+  <ul *ngIf="!loading">
+    <li *ngFor="let story of stories">
+      <app-story-item [item]="story"></app-story-item>
+    </li>
+    <button class="moreStoriesButton" (click)="moreStories()">More Stories</button>
+  </ul>
+</main>
